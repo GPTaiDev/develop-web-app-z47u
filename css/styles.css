@@ -1,0 +1,8 @@
+body { font-family: 'Arial', sans-serif; }
+header, footer { text-align: center; padding: 1rem; background-color: #f0f0f0; }
+nav ul { list-style: none; }
+nav ul li { display: inline; margin-right: 20px; }
+a { text-decoration: none; color: #333; }
+#add-habit { background-color: #4CAF50; color: white; padding: 10px; border: none; cursor: pointer; }
+#add-habit:hover { background-color: #45a049; }
+@media (max-width: 600px) { nav ul li { display: block; margin-right: 0; } }
